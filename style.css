@@ -1,0 +1,148 @@
+body{
+    padding: 0; 
+    background: radial-gradient(#567ae6,#91cfe5);
+     box-sizing: border-box; 
+     margin: 0;
+}
+header{
+     
+    width: 100%;
+    background-color:#154d9ac6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.logo{
+    font-family: Arial Helvetica, sans-serif;
+    font-size: 15px;
+}
+.logo ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    flex-direction: row-reverse;
+}
+.logo ul li{
+    background-color: #5e7fea;line-height: 25px; 
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-right: 25px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.logo ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logo ul li:hover{
+    background-color: wheat;
+}
+.logo ul ul{
+    display: none; 
+}
+
+.img{
+    width: 400px;
+    float: right;
+    border-radius: 50%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-image: 30 round; 
+    margin-right: 20px;
+    margin-top: 60px; 
+
+}
+p{
+    line-height: 30px;
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+h1{
+    text-shadow: 2px 2px 8px #0095ff;
+    text-align: center;
+    margin-top: 120px;
+}
+
+/* skills */
+.container{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    
+}
+.container > div{
+    background: radial-gradient(#4243a168, #8281d1);
+    padding: 25px;
+    margin: 15px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;   
+}
+@keyframes square {
+     from{#5660e6ee, #a181d1
+        background-color: ;
+    }
+    to{
+    background-color: blue;
+    } 
+}
+/* skills end */
+
+/* font start */
+.font{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    margin-top: 30px;
+}
+.font input{
+    padding: 10px 100px;
+    border-color: #0095ff;
+    border-radius: 50px;
+}
+.font .btn:hover{
+    background-color: antiquewhite;
+}
+img{
+    width: 400px;
+    float: right;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-image: 30 round; 
+    margin-right: 200px;
+    margin-top: 40px;
+}
+/* font end */
+
+/* footer start */
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #154d9ac6;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+}
+.tools{
+    font-size: 45px;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
+.copyright{
+    height: 30px;
+    width: 100%;
+    background-color: #041d41c6;
+}
